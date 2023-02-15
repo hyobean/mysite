@@ -1,0 +1,522 @@
+[2023-02-15 09:22:26] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:22:31] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:22:31] log -log_response -241 WARNING Bad Request: /
+[2023-02-15 09:22:31] basehttp -log_message -187 WARNING "GET / HTTP/1.1" 400 69378
+[2023-02-15 09:22:32] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:22:32] log -log_response -241 WARNING Bad Request: /favicon.ico
+[2023-02-15 09:22:32] basehttp -log_message -187 WARNING "GET /favicon.ico HTTP/1.1" 400 69434
+[2023-02-15 09:23:11] autoreload -trigger_reload -266 INFO C:\projects\mysite\config\settings\base.py changed, reloading.
+[2023-02-15 09:23:11] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:23:11] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:23:11] log -log_response -241 WARNING Bad Request: /
+[2023-02-15 09:23:11] basehttp -log_message -187 WARNING "GET / HTTP/1.1" 400 69515
+[2023-02-15 09:23:12] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:23:12] log -log_response -241 WARNING Bad Request: /favicon.ico
+[2023-02-15 09:23:12] basehttp -log_message -187 WARNING "GET /favicon.ico HTTP/1.1" 400 69434
+[2023-02-15 09:23:12] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:23:12] log -log_response -241 WARNING Bad Request: /
+[2023-02-15 09:23:12] basehttp -log_message -187 WARNING "GET / HTTP/1.1" 400 69515
+[2023-02-15 09:23:12] exception -response_for_exception -124 ERROR Invalid HTTP_HOST header: '192.168.0.74:8000'. You may need to add '192.168.0.74' to ALLOWED_HOSTS.
+[2023-02-15 09:23:12] log -log_response -241 WARNING Bad Request: /favicon.ico
+[2023-02-15 09:23:12] basehttp -log_message -187 WARNING "GET /favicon.ico HTTP/1.1" 400 69434
+[2023-02-15 09:24:23] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:24:26] base_views -index -44 INFO page:1
+[2023-02-15 09:24:26] base_views -index -45 INFO kw:
+[2023-02-15 09:24:26] base_views -index -46 INFO div:
+[2023-02-15 09:24:26] base_views -index -47 INFO size:10
+[2023-02-15 09:24:26] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:24:26] basehttp -log_message -187 INFO "GET / HTTP/1.1" 200 9066
+[2023-02-15 09:24:26] basehttp -log_message -187 INFO "GET /static/style.css HTTP/1.1" 200 81
+[2023-02-15 09:24:26] basehttp -log_message -187 INFO "GET /static/common.js HTTP/1.1" 200 319
+[2023-02-15 09:24:26] basehttp -log_message -187 INFO "GET /static/bootstrap.min.js HTTP/1.1" 200 60095
+[2023-02-15 09:24:26] basehttp -log_message -187 INFO "GET /static/bootstrap.min.css HTTP/1.1" 200 155851
+[2023-02-15 09:24:27] basehttp -log_message -187 INFO "GET /static/favicon.ico HTTP/1.1" 200 15406
+[2023-02-15 09:25:14] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:27:17] base_views -index -44 INFO page:1
+[2023-02-15 09:27:17] base_views -index -45 INFO kw:
+[2023-02-15 09:27:17] base_views -index -46 INFO div:
+[2023-02-15 09:27:17] base_views -index -47 INFO size:10
+[2023-02-15 09:27:17] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:27:17] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9066
+[2023-02-15 09:27:18] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:27:19] basehttp -log_message -187 INFO "GET /common/login/?next=/pybo/question/create/ HTTP/1.1" 200 4807
+[2023-02-15 09:27:24] basehttp -log_message -187 INFO "GET /common/login/ HTTP/1.1" 200 4785
+[2023-02-15 09:27:26] basehttp -log_message -187 INFO "GET /common/signup/ HTTP/1.1" 200 5243
+[2023-02-15 09:27:51] views -signup -18 INFO username:uijeongbu
+[2023-02-15 09:27:51] views -signup -21 INFO password1:hyobean7947
+[2023-02-15 09:27:52] basehttp -log_message -187 INFO "POST /common/signup/ HTTP/1.1" 302 0
+[2023-02-15 09:27:52] base_views -index -44 INFO page:1
+[2023-02-15 09:27:52] base_views -index -45 INFO kw:
+[2023-02-15 09:27:52] base_views -index -46 INFO div:
+[2023-02-15 09:27:52] base_views -index -47 INFO size:10
+[2023-02-15 09:27:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:27:52] basehttp -log_message -187 INFO "GET / HTTP/1.1" 200 9026
+[2023-02-15 09:27:58] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:27:58] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:28:35] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:28:35] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:28:35] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:28:35] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:28:35] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:28:35] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:28:35] base_views -index -44 INFO page:1
+[2023-02-15 09:28:35] base_views -index -45 INFO kw:
+[2023-02-15 09:28:35] base_views -index -46 INFO div:
+[2023-02-15 09:28:35] base_views -index -47 INFO size:10
+[2023-02-15 09:28:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:28:35] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:28:37] base_views -detail -22 INFO 1.question_id:1
+[2023-02-15 09:28:37] base_views -detail -26 INFO 2.question:한국철도공사
+[2023-02-15 09:28:37] basehttp -log_message -187 INFO "GET /pybo/1/ HTTP/1.1" 200 7944
+[2023-02-15 09:28:43] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:28:43] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:29:23] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:29:23] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:29:33] base_views -index -44 INFO page:1
+[2023-02-15 09:29:33] base_views -index -45 INFO kw:
+[2023-02-15 09:29:33] base_views -index -46 INFO div:
+[2023-02-15 09:29:33] base_views -index -47 INFO size:10
+[2023-02-15 09:29:33] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:29:33] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:33:17] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:33:17] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:36:59] base_views -index -44 INFO page:1
+[2023-02-15 09:36:59] base_views -index -45 INFO kw:
+[2023-02-15 09:36:59] base_views -index -46 INFO div:
+[2023-02-15 09:36:59] base_views -index -47 INFO size:10
+[2023-02-15 09:36:59] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:36:59] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:01] base_views -index -44 INFO page:1
+[2023-02-15 09:37:01] base_views -index -45 INFO kw:
+[2023-02-15 09:37:01] base_views -index -46 INFO div:
+[2023-02-15 09:37:01] base_views -index -47 INFO size:10
+[2023-02-15 09:37:01] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:01] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:01] base_views -index -44 INFO page:1
+[2023-02-15 09:37:01] base_views -index -45 INFO kw:
+[2023-02-15 09:37:01] base_views -index -46 INFO div:
+[2023-02-15 09:37:01] base_views -index -47 INFO size:10
+[2023-02-15 09:37:01] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:01] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:01] base_views -index -44 INFO page:1
+[2023-02-15 09:37:01] base_views -index -45 INFO kw:
+[2023-02-15 09:37:01] base_views -index -46 INFO div:
+[2023-02-15 09:37:01] base_views -index -47 INFO size:10
+[2023-02-15 09:37:01] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:02] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:02] base_views -index -44 INFO page:1
+[2023-02-15 09:37:02] base_views -index -45 INFO kw:
+[2023-02-15 09:37:02] base_views -index -46 INFO div:
+[2023-02-15 09:37:02] base_views -index -47 INFO size:10
+[2023-02-15 09:37:02] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:02] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:02] base_views -index -44 INFO page:1
+[2023-02-15 09:37:02] base_views -index -45 INFO kw:
+[2023-02-15 09:37:02] base_views -index -46 INFO div:
+[2023-02-15 09:37:02] base_views -index -47 INFO size:10
+[2023-02-15 09:37:02] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:02] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:37:02] base_views -index -44 INFO page:1
+[2023-02-15 09:37:02] base_views -index -45 INFO kw:
+[2023-02-15 09:37:02] base_views -index -46 INFO div:
+[2023-02-15 09:37:02] base_views -index -47 INFO size:10
+[2023-02-15 09:37:02] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:37:02] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:41:15] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:41:17] base_views -index -44 INFO page:1
+[2023-02-15 09:41:17] base_views -index -45 INFO kw:
+[2023-02-15 09:41:17] base_views -index -46 INFO div:
+[2023-02-15 09:41:17] base_views -index -47 INFO size:10
+[2023-02-15 09:41:17] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:17] basehttp -log_message -187 INFO "GET / HTTP/1.1" 200 9615
+[2023-02-15 09:41:19] base_views -index -44 INFO page:1
+[2023-02-15 09:41:19] base_views -index -45 INFO kw:
+[2023-02-15 09:41:19] base_views -index -46 INFO div:
+[2023-02-15 09:41:19] base_views -index -47 INFO size:10
+[2023-02-15 09:41:19] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:19] basehttp -log_message -187 INFO "GET / HTTP/1.1" 200 9615
+[2023-02-15 09:41:34] base_views -index -44 INFO page:1
+[2023-02-15 09:41:34] base_views -index -45 INFO kw:
+[2023-02-15 09:41:34] base_views -index -46 INFO div:
+[2023-02-15 09:41:34] base_views -index -47 INFO size:10
+[2023-02-15 09:41:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:34] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:35] base_views -index -44 INFO page:1
+[2023-02-15 09:41:35] base_views -index -45 INFO kw:
+[2023-02-15 09:41:35] base_views -index -46 INFO div:
+[2023-02-15 09:41:35] base_views -index -47 INFO size:10
+[2023-02-15 09:41:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:35] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:35] base_views -index -44 INFO page:1
+[2023-02-15 09:41:35] base_views -index -45 INFO kw:
+[2023-02-15 09:41:35] base_views -index -46 INFO div:
+[2023-02-15 09:41:35] base_views -index -47 INFO size:10
+[2023-02-15 09:41:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:35] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:35] base_views -index -44 INFO page:1
+[2023-02-15 09:41:35] base_views -index -45 INFO kw:
+[2023-02-15 09:41:35] base_views -index -46 INFO div:
+[2023-02-15 09:41:35] base_views -index -47 INFO size:10
+[2023-02-15 09:41:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:35] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:35] base_views -index -44 INFO page:1
+[2023-02-15 09:41:35] base_views -index -45 INFO kw:
+[2023-02-15 09:41:35] base_views -index -46 INFO div:
+[2023-02-15 09:41:35] base_views -index -47 INFO size:10
+[2023-02-15 09:41:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:35] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:35] base_views -index -44 INFO page:1
+[2023-02-15 09:41:35] base_views -index -45 INFO kw:
+[2023-02-15 09:41:35] base_views -index -46 INFO div:
+[2023-02-15 09:41:35] base_views -index -47 INFO size:10
+[2023-02-15 09:41:35] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:35] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:41:38] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:41:39] basehttp -log_message -187 INFO "GET /pybo/boot/reg/ HTTP/1.1" 200 4913
+[2023-02-15 09:41:40] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:41:45] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:41:46] base_views -index -44 INFO page:1
+[2023-02-15 09:41:46] base_views -index -45 INFO kw:
+[2023-02-15 09:41:46] base_views -index -46 INFO div:
+[2023-02-15 09:41:46] base_views -index -47 INFO size:10
+[2023-02-15 09:41:46] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:41:46] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:25] base_views -index -44 INFO page:1
+[2023-02-15 09:43:25] base_views -index -45 INFO kw:
+[2023-02-15 09:43:25] base_views -index -46 INFO div:
+[2023-02-15 09:43:25] base_views -index -47 INFO size:10
+[2023-02-15 09:43:25] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:25] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:25] base_views -index -44 INFO page:1
+[2023-02-15 09:43:25] base_views -index -45 INFO kw:
+[2023-02-15 09:43:25] base_views -index -46 INFO div:
+[2023-02-15 09:43:25] base_views -index -47 INFO size:10
+[2023-02-15 09:43:25] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:25] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:26] base_views -index -44 INFO page:1
+[2023-02-15 09:43:26] base_views -index -45 INFO kw:
+[2023-02-15 09:43:26] base_views -index -46 INFO div:
+[2023-02-15 09:43:26] base_views -index -47 INFO size:10
+[2023-02-15 09:43:26] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:26] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:31] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:43:33] base_views -index -44 INFO page:1
+[2023-02-15 09:43:33] base_views -index -45 INFO kw:
+[2023-02-15 09:43:33] base_views -index -46 INFO div:
+[2023-02-15 09:43:33] base_views -index -47 INFO size:10
+[2023-02-15 09:43:33] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:33] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:34] base_views -index -44 INFO page:1
+[2023-02-15 09:43:34] base_views -index -45 INFO kw:
+[2023-02-15 09:43:34] base_views -index -46 INFO div:
+[2023-02-15 09:43:34] base_views -index -47 INFO size:10
+[2023-02-15 09:43:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:34] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:34] base_views -index -44 INFO page:1
+[2023-02-15 09:43:34] base_views -index -45 INFO kw:
+[2023-02-15 09:43:34] base_views -index -46 INFO div:
+[2023-02-15 09:43:34] base_views -index -47 INFO size:10
+[2023-02-15 09:43:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:34] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:34] base_views -index -44 INFO page:1
+[2023-02-15 09:43:34] base_views -index -45 INFO kw:
+[2023-02-15 09:43:34] base_views -index -46 INFO div:
+[2023-02-15 09:43:34] base_views -index -47 INFO size:10
+[2023-02-15 09:43:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:34] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:34] base_views -index -44 INFO page:1
+[2023-02-15 09:43:34] base_views -index -45 INFO kw:
+[2023-02-15 09:43:34] base_views -index -46 INFO div:
+[2023-02-15 09:43:34] base_views -index -47 INFO size:10
+[2023-02-15 09:43:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:34] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:34] base_views -index -44 INFO page:1
+[2023-02-15 09:43:34] base_views -index -45 INFO kw:
+[2023-02-15 09:43:34] base_views -index -46 INFO div:
+[2023-02-15 09:43:34] base_views -index -47 INFO size:10
+[2023-02-15 09:43:34] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:34] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:35] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:36] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:36] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:40] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:40] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:40] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:40] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:42] basehttp -log_message -187 INFO "GET /pybo/boot/list/ HTTP/1.1" 200 8342
+[2023-02-15 09:43:43] basehttp -log_message -187 INFO "GET /pybo/boot/reg/ HTTP/1.1" 200 4913
+[2023-02-15 09:43:44] basehttp -log_message -187 INFO "GET /pybo/crawling/cgv/ HTTP/1.1" 200 7374
+[2023-02-15 09:43:50] base_views -index -44 INFO page:1
+[2023-02-15 09:43:50] base_views -index -45 INFO kw:
+[2023-02-15 09:43:50] base_views -index -46 INFO div:
+[2023-02-15 09:43:50] base_views -index -47 INFO size:10
+[2023-02-15 09:43:50] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:50] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 9615
+[2023-02-15 09:43:52] base_views -index -44 INFO page:1
+[2023-02-15 09:43:52] base_views -index -45 INFO kw:
+[2023-02-15 09:43:52] base_views -index -46 INFO div:
+[2023-02-15 09:43:52] base_views -index -47 INFO size:10
+[2023-02-15 09:43:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:52] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:43:52] base_views -index -44 INFO page:1
+[2023-02-15 09:43:52] base_views -index -45 INFO kw:
+[2023-02-15 09:43:52] base_views -index -46 INFO div:
+[2023-02-15 09:43:52] base_views -index -47 INFO size:10
+[2023-02-15 09:43:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:52] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:43:52] base_views -index -44 INFO page:1
+[2023-02-15 09:43:52] base_views -index -45 INFO kw:
+[2023-02-15 09:43:52] base_views -index -46 INFO div:
+[2023-02-15 09:43:52] base_views -index -47 INFO size:10
+[2023-02-15 09:43:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:52] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:43:52] base_views -index -44 INFO page:1
+[2023-02-15 09:43:52] base_views -index -45 INFO kw:
+[2023-02-15 09:43:52] base_views -index -46 INFO div:
+[2023-02-15 09:43:52] base_views -index -47 INFO size:10
+[2023-02-15 09:43:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:52] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:43:52] base_views -index -44 INFO page:1
+[2023-02-15 09:43:52] base_views -index -45 INFO kw:
+[2023-02-15 09:43:52] base_views -index -46 INFO div:
+[2023-02-15 09:43:52] base_views -index -47 INFO size:10
+[2023-02-15 09:43:52] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:52] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:43:53] base_views -index -44 INFO page:1
+[2023-02-15 09:43:53] base_views -index -45 INFO kw:
+[2023-02-15 09:43:53] base_views -index -46 INFO div:
+[2023-02-15 09:43:53] base_views -index -47 INFO size:10
+[2023-02-15 09:43:53] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:43:53] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 9615
+[2023-02-15 09:44:40] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:45:11] autoreload -run_with_reloader -677 INFO Watching for file changes with StatReloader
+[2023-02-15 09:45:13] base_views -index -44 INFO page:1
+[2023-02-15 09:45:13] base_views -index -45 INFO kw:
+[2023-02-15 09:45:13] base_views -index -46 INFO div:
+[2023-02-15 09:45:13] base_views -index -47 INFO size:10
+[2023-02-15 09:45:13] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:45:13] basehttp -log_message -187 INFO "GET / HTTP/1.1" 200 9615
+[2023-02-15 09:45:16] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:45:16] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:45:26] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:45:26] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:45:26] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:45:26] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:45:26] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:45:26] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:45:26] base_views -index -44 INFO page:1
+[2023-02-15 09:45:26] base_views -index -45 INFO kw:
+[2023-02-15 09:45:26] base_views -index -46 INFO div:
+[2023-02-15 09:45:26] base_views -index -47 INFO size:10
+[2023-02-15 09:45:26] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:45:26] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 10299
+[2023-02-15 09:46:06] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:06] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:15] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:15] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:15] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:15] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:15] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:15] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:15] base_views -index -44 INFO page:1
+[2023-02-15 09:46:15] base_views -index -45 INFO kw:
+[2023-02-15 09:46:15] base_views -index -46 INFO div:
+[2023-02-15 09:46:15] base_views -index -47 INFO size:10
+[2023-02-15 09:46:15] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:15] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 10983
+[2023-02-15 09:46:17] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:17] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:23] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:23] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:23] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:23] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:23] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:23] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:23] base_views -index -44 INFO page:1
+[2023-02-15 09:46:23] base_views -index -45 INFO kw:
+[2023-02-15 09:46:23] base_views -index -46 INFO div:
+[2023-02-15 09:46:23] base_views -index -47 INFO size:10
+[2023-02-15 09:46:23] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:23] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 11667
+[2023-02-15 09:46:24] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:24] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:32] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:32] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:32] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:32] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:32] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:32] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:32] base_views -index -44 INFO page:1
+[2023-02-15 09:46:32] base_views -index -45 INFO kw:
+[2023-02-15 09:46:32] base_views -index -46 INFO div:
+[2023-02-15 09:46:32] base_views -index -47 INFO size:10
+[2023-02-15 09:46:32] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:32] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 12351
+[2023-02-15 09:46:33] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:33] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:40] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:40] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:40] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:40] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:40] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:41] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:41] base_views -index -44 INFO page:1
+[2023-02-15 09:46:41] base_views -index -45 INFO kw:
+[2023-02-15 09:46:41] base_views -index -46 INFO div:
+[2023-02-15 09:46:41] base_views -index -47 INFO size:10
+[2023-02-15 09:46:41] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:41] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 13035
+[2023-02-15 09:46:42] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:42] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:48] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:48] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:48] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:48] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:48] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:48] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:48] base_views -index -44 INFO page:1
+[2023-02-15 09:46:48] base_views -index -45 INFO kw:
+[2023-02-15 09:46:48] base_views -index -46 INFO div:
+[2023-02-15 09:46:48] base_views -index -47 INFO size:10
+[2023-02-15 09:46:48] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:48] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 13719
+[2023-02-15 09:46:49] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:49] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:46:57] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:46:57] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:46:57] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:46:57] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:46:57] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:46:57] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:46:57] base_views -index -44 INFO page:1
+[2023-02-15 09:46:57] base_views -index -45 INFO kw:
+[2023-02-15 09:46:57] base_views -index -46 INFO div:
+[2023-02-15 09:46:57] base_views -index -47 INFO size:10
+[2023-02-15 09:46:57] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:46:57] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 14403
+[2023-02-15 09:46:58] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:46:58] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:47:05] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:47:05] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:47:05] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:47:05] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:47:05] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:47:06] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:47:06] base_views -index -44 INFO page:1
+[2023-02-15 09:47:06] base_views -index -45 INFO kw:
+[2023-02-15 09:47:06] base_views -index -46 INFO div:
+[2023-02-15 09:47:06] base_views -index -47 INFO size:10
+[2023-02-15 09:47:06] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:47:06] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 15087
+[2023-02-15 09:47:08] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:47:08] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:47:16] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:47:16] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:47:16] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:47:16] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:47:16] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:47:16] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:47:16] base_views -index -44 INFO page:1
+[2023-02-15 09:47:16] base_views -index -45 INFO kw:
+[2023-02-15 09:47:16] base_views -index -46 INFO div:
+[2023-02-15 09:47:16] base_views -index -47 INFO size:10
+[2023-02-15 09:47:16] base_views -index -81 INFO question_list:<Page 1 of 1>
+[2023-02-15 09:47:16] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 15773
+[2023-02-15 09:47:17] question_views -question_create -122 INFO 1.request.method:GET
+[2023-02-15 09:47:17] basehttp -log_message -187 INFO "GET /pybo/question/create/ HTTP/1.1" 200 4992
+[2023-02-15 09:47:26] question_views -question_create -122 INFO 1.request.method:POST
+[2023-02-15 09:47:26] question_views -question_create -124 INFO 2.question_create post
+[2023-02-15 09:47:26] question_views -question_create -127 INFO 3.question_create post
+[2023-02-15 09:47:26] question_views -question_create -130 INFO 4.form.is_valid():True
+[2023-02-15 09:47:26] question_views -question_create -135 INFO 4.question.author:uijeongbu
+[2023-02-15 09:47:26] basehttp -log_message -187 INFO "POST /pybo/question/create/ HTTP/1.1" 302 0
+[2023-02-15 09:47:26] base_views -index -44 INFO page:1
+[2023-02-15 09:47:26] base_views -index -45 INFO kw:
+[2023-02-15 09:47:26] base_views -index -46 INFO div:
+[2023-02-15 09:47:26] base_views -index -47 INFO size:10
+[2023-02-15 09:47:26] base_views -index -81 INFO question_list:<Page 1 of 2>
+[2023-02-15 09:47:26] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 15976
+[2023-02-15 09:48:09] base_views -index -44 INFO page:1
+[2023-02-15 09:48:09] base_views -index -45 INFO kw:
+[2023-02-15 09:48:09] base_views -index -46 INFO div:
+[2023-02-15 09:48:09] base_views -index -47 INFO size:10
+[2023-02-15 09:48:09] base_views -index -81 INFO question_list:<Page 1 of 2>
+[2023-02-15 09:48:09] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 15976
+[2023-02-15 09:48:22] base_views -index -44 INFO page:1
+[2023-02-15 09:48:22] base_views -index -45 INFO kw:
+[2023-02-15 09:48:22] base_views -index -46 INFO div:
+[2023-02-15 09:48:22] base_views -index -47 INFO size:10
+[2023-02-15 09:48:22] base_views -index -81 INFO question_list:<Page 1 of 3>
+[2023-02-15 09:48:22] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 16220
+[2023-02-15 09:49:37] base_views -index -44 INFO page:1
+[2023-02-15 09:49:37] base_views -index -45 INFO kw:
+[2023-02-15 09:49:37] base_views -index -46 INFO div:
+[2023-02-15 09:49:37] base_views -index -47 INFO size:10
+[2023-02-15 09:49:37] base_views -index -81 INFO question_list:<Page 1 of 5>
+[2023-02-15 09:49:38] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 16684
+[2023-02-15 09:52:33] base_views -index -44 INFO page:1
+[2023-02-15 09:52:33] base_views -index -45 INFO kw:
+[2023-02-15 09:52:33] base_views -index -46 INFO div:
+[2023-02-15 09:52:33] base_views -index -47 INFO size:10
+[2023-02-15 09:52:33] base_views -index -81 INFO question_list:<Page 1 of 5>
+[2023-02-15 09:52:33] basehttp -log_message -187 INFO "GET /pybo/ HTTP/1.1" 200 16684
+[2023-02-15 09:52:34] base_views -index -44 INFO page:5
+[2023-02-15 09:52:34] base_views -index -45 INFO kw:
+[2023-02-15 09:52:34] base_views -index -46 INFO div:
+[2023-02-15 09:52:34] base_views -index -47 INFO size:10
+[2023-02-15 09:52:34] base_views -index -81 INFO question_list:<Page 5 of 5>
+[2023-02-15 09:52:34] basehttp -log_message -187 INFO "GET /?kw=&page=5&div=&size=10 HTTP/1.1" 200 12664
+[2023-02-15 09:52:35] base_views -index -44 INFO page:4
+[2023-02-15 09:52:35] base_views -index -45 INFO kw:
+[2023-02-15 09:52:35] base_views -index -46 INFO div:
+[2023-02-15 09:52:35] base_views -index -47 INFO size:10
+[2023-02-15 09:52:35] base_views -index -81 INFO question_list:<Page 4 of 5>
+[2023-02-15 09:52:35] basehttp -log_message -187 INFO "GET /?kw=&page=4&div=&size=10 HTTP/1.1" 200 16721
+[2023-02-15 09:52:36] base_views -index -44 INFO page:3
+[2023-02-15 09:52:36] base_views -index -45 INFO kw:
+[2023-02-15 09:52:36] base_views -index -46 INFO div:
+[2023-02-15 09:52:36] base_views -index -47 INFO size:10
+[2023-02-15 09:52:36] base_views -index -81 INFO question_list:<Page 3 of 5>
+[2023-02-15 09:52:36] basehttp -log_message -187 INFO "GET /?kw=&page=3&div=&size=10 HTTP/1.1" 200 16725
+[2023-02-15 09:52:36] base_views -index -44 INFO page:2
+[2023-02-15 09:52:36] base_views -index -45 INFO kw:
+[2023-02-15 09:52:36] base_views -index -46 INFO div:
+[2023-02-15 09:52:36] base_views -index -47 INFO size:10
+[2023-02-15 09:52:36] base_views -index -81 INFO question_list:<Page 2 of 5>
+[2023-02-15 09:52:36] basehttp -log_message -187 INFO "GET /?kw=&page=2&div=&size=10 HTTP/1.1" 200 16726
+[2023-02-15 09:52:37] base_views -index -44 INFO page:1
+[2023-02-15 09:52:37] base_views -index -45 INFO kw:
+[2023-02-15 09:52:37] base_views -index -46 INFO div:
+[2023-02-15 09:52:37] base_views -index -47 INFO size:10
+[2023-02-15 09:52:37] base_views -index -81 INFO question_list:<Page 1 of 5>
+[2023-02-15 09:52:37] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 16684
+[2023-02-15 09:52:38] base_views -index -44 INFO page:5
+[2023-02-15 09:52:38] base_views -index -45 INFO kw:
+[2023-02-15 09:52:38] base_views -index -46 INFO div:
+[2023-02-15 09:52:38] base_views -index -47 INFO size:10
+[2023-02-15 09:52:38] base_views -index -81 INFO question_list:<Page 5 of 5>
+[2023-02-15 09:52:38] basehttp -log_message -187 INFO "GET /?kw=&page=5&div=&size=10 HTTP/1.1" 200 12664
+[2023-02-15 09:57:43] base_views -index -44 INFO page:5
+[2023-02-15 09:57:43] base_views -index -45 INFO kw:
+[2023-02-15 09:57:43] base_views -index -46 INFO div:
+[2023-02-15 09:57:43] base_views -index -47 INFO size:10
+[2023-02-15 09:57:43] base_views -index -81 INFO question_list:<Page 5 of 5>
+[2023-02-15 09:57:43] basehttp -log_message -187 INFO "GET /?kw=&page=5&div=&size=10 HTTP/1.1" 200 12664
+[2023-02-15 09:58:27] base_views -index -44 INFO page:5
+[2023-02-15 09:58:27] base_views -index -45 INFO kw:
+[2023-02-15 09:58:27] base_views -index -46 INFO div:
+[2023-02-15 09:58:27] base_views -index -47 INFO size:10
+[2023-02-15 09:58:27] base_views -index -81 INFO question_list:<Page 5 of 5>
+[2023-02-15 09:58:27] basehttp -log_message -187 INFO "GET /?kw=&page=5&div=&size=10 HTTP/1.1" 200 12664
+[2023-02-15 09:58:27] base_views -index -44 INFO page:5
+[2023-02-15 09:58:27] base_views -index -45 INFO kw:
+[2023-02-15 09:58:27] base_views -index -46 INFO div:
+[2023-02-15 09:58:27] base_views -index -47 INFO size:10
+[2023-02-15 09:58:27] base_views -index -81 INFO question_list:<Page 5 of 5>
+[2023-02-15 09:58:27] basehttp -log_message -187 INFO "GET /?kw=&page=5&div=&size=10 HTTP/1.1" 200 12664
+[2023-02-15 09:58:56] base_views -index -44 INFO page:1
+[2023-02-15 09:58:56] base_views -index -45 INFO kw:
+[2023-02-15 09:58:56] base_views -index -46 INFO div:
+[2023-02-15 09:58:56] base_views -index -47 INFO size:10
+[2023-02-15 09:58:56] base_views -index -81 INFO question_list:<Page 1 of 5>
+[2023-02-15 09:58:57] basehttp -log_message -187 INFO "GET /?kw=&page=1&div=&size=10 HTTP/1.1" 200 16684

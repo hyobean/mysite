@@ -30,8 +30,8 @@ class Crawling(unittest.TestCase):
     def test_clipboard_naver(self):
         ''' clipboard를 통한 naver login '''
         self.brower.get('https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com')
-        user_id ='아이디'
-        user_pw ='비번'
+        user_id ='wjd4427947'
+        user_pw ='qls4427947'
 
         #id
         id_textinput = self.brower.find_element(By.ID,'id')
